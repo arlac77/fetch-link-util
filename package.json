@@ -1,0 +1,4 @@
+{
+    "name" : "fetch-link-util",
+    "main" : "src/util.mjs"
+}
