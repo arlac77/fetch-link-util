@@ -6,11 +6,11 @@
   },
   "sideEffects": false,
   "type": "module",
-  "main": "src/util.mjs",
+  "main": "./src/util.mjs",
   "exports": {
-    ".": "src/util.mjs"
+    ".": "./src/util.mjs"
   },
-  "description": "helper to extort link header values",
+  "description": "helper to extract fetch link header values",
   "contributors": [
     {
       "name": "Markus Felten",

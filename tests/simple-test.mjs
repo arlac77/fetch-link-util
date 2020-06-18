@@ -7,8 +7,8 @@ function dlt(t, header, rel, expected) {
   t.is(getHeaderLink(headers, rel), expected);
 }
 
-dlt.title = (providedTitle = "", header, rel, expected) =>
-  `decodeLink ${providedTitle} ${header} ${rel}`.trim();
+dlt.title = (providedTitle, header, rel, expected) =>
+  `decodeLink ${header} ${rel}`.trim();
 
 test(
   dlt,
@@ -16,3 +16,7 @@ test(
   "first",
   "https://api.github.com/repositories/253911783/pulls?page=1&state=OPEN&head=arlac77%3Apr-test%2Fsource-1"
 );
+
+
+test(dlt, null, undefined);
+test(dlt, `<http://somewhere>; rel="abc"`, undefined);
