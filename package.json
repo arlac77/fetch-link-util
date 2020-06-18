@@ -19,14 +19,14 @@
   ],
   "license": "BSD-2-Clause",
   "scripts": {
-    "cover": "--overwrite-- c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava --timeout 2m",
-    "docs": "--overwrite-- documentation readme src/util.mjs --section=API",
-    "lint": "--overwrite-- documentation lint src/util.mjs"
+    "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
+    "docs": "documentation readme src/util.mjs --section=API",
+    "lint": "documentation lint src/util.mjs"
   },
   "devDependencies": {
-    "c8": "^7.2.0",
     "ava": "^3.9.0",
+    "c8": "^7.2.0",
     "documentation": "^13.0.1",
     "semantic-release": "^17.0.8"
   },
