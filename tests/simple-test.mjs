@@ -17,6 +17,6 @@ test(
   "https://api.github.com/repositories/253911783/pulls?page=1&state=OPEN&head=arlac77%3Apr-test%2Fsource-1"
 );
 
-
 test(dlt, null, undefined);
 test(dlt, `<http://somewhere>; rel="abc"`, undefined);
+test(dlt, `<http://somewhere>; rel=".$^"`, ".$^", "http://somewhere");
