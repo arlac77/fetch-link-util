@@ -11,7 +11,12 @@
     ".": "./src/util.mjs"
   },
   "description": "helper to extract fetch link header values (paging)",
-  "keywords": ["fetch","paging","link","rel"],
+  "keywords": [
+    "fetch",
+    "link",
+    "paging",
+    "rel"
+  ],
   "contributors": [
     {
       "name": "Markus Felten",
