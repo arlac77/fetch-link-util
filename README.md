@@ -11,6 +11,8 @@
 
 # fetch-link-util
 
+helper to extract fetch link header values (paging)
+
 # Example
 
 ```js
