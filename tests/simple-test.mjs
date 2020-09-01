@@ -21,3 +21,6 @@ test(dlt, null, undefined);
 test(dlt, `<http://somewhere>; rel="abc"`, undefined);
 test(dlt, `<http://somewhere>; rel=".$^"`, ".$^", "http://somewhere");
 test(dlt, `<http://somewhere>; rel="with spaces"`, "with spaces", "http://somewhere");
+
+test.skip(dlt, `<http://somewhere?a=1,2>; rel="abc"`, "abc", "http://somewhere");
+test.skip(dlt, `<http://somewhere>; rel=abc`, "abc", "http://somewhere");
