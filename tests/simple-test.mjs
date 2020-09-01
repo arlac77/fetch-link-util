@@ -20,3 +20,4 @@ test(
 test(dlt, null, undefined);
 test(dlt, `<http://somewhere>; rel="abc"`, undefined);
 test(dlt, `<http://somewhere>; rel=".$^"`, ".$^", "http://somewhere");
+test(dlt, `<http://somewhere>; rel="with spaces"`, "with spaces", "http://somewhere");
