@@ -10,11 +10,11 @@
   },
   "description": "helper to extract fetch link header values (paging/RFC-8288)",
   "keywords": [
+    "RFC-8288",
     "fetch",
     "link",
     "paging",
-    "rel",
-    "RFC-8288"
+    "rel"
   ],
   "contributors": [
     {
