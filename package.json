@@ -8,12 +8,13 @@
   "exports": {
     ".": "./src/util.mjs"
   },
-  "description": "helper to extract fetch link header values (paging)",
+  "description": "helper to extract fetch link header values (paging/RFC-8288)",
   "keywords": [
     "fetch",
     "link",
     "paging",
-    "rel"
+    "rel",
+    "RFC-8288"
   ],
   "contributors": [
     {

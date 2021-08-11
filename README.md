@@ -11,7 +11,7 @@
 
 # fetch-link-util
 
-helper to extract fetch link header values (paging)
+helper to extract fetch link header values (paging/RFC-8288)
 
 # Example
 
