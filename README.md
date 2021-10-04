@@ -11,7 +11,7 @@
 
 # fetch-link-util
 
-helper to extract fetch link header values (paging/RFC-8288)
+helper to extract fetch link header values (https://datatracker.ietf.org/doc/html/rfc8288)
 
 # Example
 
