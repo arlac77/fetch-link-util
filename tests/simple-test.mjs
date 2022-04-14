@@ -17,10 +17,11 @@ test(
   "https://api.github.com/repositories/253911783/pulls?page=1&state=OPEN&head=arlac77%3Apr-test%2Fsource-1"
 );
 
+test(dlt, undefined, undefined);
 test(dlt, null, undefined);
-test(dlt, `<http://somewhere>; rel="abc"`, undefined);
-test(dlt, `<http://somewhere>; rel=".$^"`, ".$^", "http://somewhere");
-test(dlt, `<http://somewhere>; rel="with spaces"`, "with spaces", "http://somewhere");
-
-test.skip(dlt, `<http://somewhere?a=1,2>; rel="abc"`, "abc", "http://somewhere");
-test.skip(dlt, `<http://somewhere>; rel=abc`, "abc", "http://somewhere");
+test(dlt, '<http://somewhere>; rel="abc"', undefined);
+test(dlt, '<http://somewhere>; rel=abc', "abc", undefined);
+test(dlt, '<http://somewhere>; rel=".$^"', ".$^", "http://somewhere");
+test(dlt, '<http://somewhere>; rel="with spaces"', "with spaces", "http://somewhere");
+test(dlt, '<http://somewhere?a=1>; rel="abc"', "abc", "http://somewhere?a=1");
+test(dlt, '<http://somewhere?a=1&b=2>; rel="abc"', "abc", "http://somewhere?a=1&b=2");

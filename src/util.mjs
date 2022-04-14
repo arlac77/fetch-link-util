@@ -13,7 +13,7 @@ function decodeHeader(link) {
     ? Object.fromEntries(
         link.split(/\s*,\s*/).map(r => {
           const m = r.match(/<([^>]+)>;\s*rel="([^\"]+)"/);
-          return [m[2], m[1]];
+          return m ? [m[2], m[1]] : [];
         })
       )
     : {};
