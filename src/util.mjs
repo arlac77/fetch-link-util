@@ -1,5 +1,6 @@
 /**
  * Decodes link header and delivers one href entry.
+ * @see {https://datatracker.ietf.org/doc/html/rfc8288}
  * @param {Headers} headers as given by fetch response
  * @param {string} rel of link to retrieve
  * @return {string} href for given rel or undefined
