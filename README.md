@@ -52,7 +52,7 @@ Decodes link header and delivers one href entry.
 *   `headers` **[Headers](https://developer.mozilla.org/docs/Web/HTML/Element/header)** as given by fetch response
 *   `rel` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** of link to retrieve (optional, default `"next"`)
 
-Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** href for given rel or undefined
+Returns **([string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) | [undefined](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined))** href for given rel
 
 # install
 
