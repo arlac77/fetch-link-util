@@ -43,7 +43,7 @@ async listAllBranches() {
 
 ## getHeaderLink
 
-*   **See**: {<https://datatracker.ietf.org/doc/html/rfc8288}>
+*   **See**: <https://datatracker.ietf.org/doc/html/rfc8288>
 
 Decodes link header and delivers one href entry.
 
