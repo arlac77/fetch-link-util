@@ -1,5 +1,6 @@
 [![npm](https://img.shields.io/npm/v/fetch-link-util.svg)](https://www.npmjs.com/package/fetch-link-util)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Typed with TypeScript](https://flat.badgen.net/badge/icon/Typed?icon=typescript\&label\&labelColor=blue\&color=555555)](https://typescriptlang.org)
 [![bundlejs](https://deno.bundlejs.com/?q=fetch-link-util\&badge=detailed)](https://bundlejs.com/?q=fetch-link-util)
 [![downloads](http://img.shields.io/npm/dm/fetch-link-util.svg?style=flat-square)](https://npmjs.org/package/fetch-link-util)
 [![GitHub Issues](https://img.shields.io/github/issues/arlac77/fetch-link-util.svg?style=flat-square)](https://github.com/arlac77/fetch-link-util/issues)
