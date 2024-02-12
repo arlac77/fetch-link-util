@@ -3,7 +3,7 @@
  * @see https://datatracker.ietf.org/doc/html/rfc8288
  * @param {Headers} headers as given by fetch response
  * @param {string} rel of link to retrieve
- * @return {string} href for given rel or undefined
+ * @return {string|undefined} href for given rel
  */
 export function getHeaderLink(headers, rel = "next") {
   return decodeHeader(headers.get("link"))[rel];
