@@ -8,8 +8,8 @@
   "types": "./types/util.d.mts",
   "exports": {
     ".": {
-      "types": "./types/util.d.mts",
-      "default": "./src/util.mjs"
+      "default": "./src/util.mjs",
+      "types": "./types/util.d.mts"
     }
   },
   "description": "helper to extract fetch link header values (paging/RFC-8288)",
