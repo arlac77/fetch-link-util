@@ -27,7 +27,7 @@ async listAllBranches() {
     const json = await response.json();
 
     console.log(json.map(branch => branch.name));
-    next = getLink(response.headers);
+    next = getHeaderLink(response.headers);
   } while (next);
 }
 ```
